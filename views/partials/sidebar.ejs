@@ -1,7 +1,15 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <div class="nav-side-menu">
-    <div class="brand">Brand Logo</div>
+    <div class="brand">
+       <img id="logo" class="hidden-xs" src="images/logo.jpg">
+       <ul class="social-links">
+          <li><a href="#"><img src="images/codepen.png"></a></li>
+          <li><a href="#"><img src="images/codepen.png"></a></li>
+          <li><a href="#"><img src="images/codepen.png"></a></li>
+       </ul>
+    </div>
+    <span class="spacer"></span>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
   
         <div class="menu-list">
@@ -9,53 +17,49 @@
             <ul id="menu-content" class="menu-content collapse out">
                 <li>
                   <a href="#">
-                  <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                  <i class="fa fa-dashboard fa-lg"></i> Home
                   </a>
                 </li>
 
-                <li  data-toggle="collapse" data-target="#main-nav" class="collapsed active">
-                  <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
+                <li  data-toggle="collapse" data-target="#about" class="collapsed active">
+                  <a href="#"><i class="fa fa-gift fa-lg"></i> About <span class="arrow"></span></a>
                 </li>
-                <ul class="sub-menu collapse" id="main-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-
-
-                <li data-toggle="collapse" data-target="#service" class="collapsed">
-                  <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
-                </li>  
-                <ul class="sub-menu collapse" id="service">
-                  <li>New Service 1</li>
-                  <li>New Service 2</li>
-                  <li>New Service 3</li>
-                </ul>
-
-
-                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
-                </li>
-                <ul class="sub-menu collapse" id="new">
-                  <li>New New 1</li>
-                  <li>New New 2</li>
-                  <li>New New 3</li>
+                <ul class="sub-menu collapse" id="about">
+      
+                    <li><a href="#">My Hobbies</a></li>
+                    <li><a href="#">Coding Challenges</a></li>
                 </ul>
 
 
                  <li>
                   <a href="#">
-                  <i class="fa fa-user fa-lg"></i> Profile
+                  <i class="fa fa-user fa-lg"></i> Portfolio
                   </a>
                   </li>
 
-                 <li>
+                 <li  data-toggle="collapse" data-target="#blog" class="collapsed active">
+                  <a href="#"><i class="fa fa-gift fa-lg"></i> Blog <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="blog">
+      
+                    <li><a href="#">100DaysOfCode</a></li>
+                    <li><a href="#">DailyCSSImages</a></li>
+                    <li><a href="#">FreeCodeCamp</a></li>
+                    <li><a href="#">Web Developer Bootcamp</a></li>
+                </ul>
+
+                <li>
                   <a href="#">
-                  <i class="fa fa-users fa-lg"></i> Users
+                  <i class="fa fa-users fa-lg"></i> Contact
                   </a>
                 </li>
+
+                <li>
+                  <a href="#">
+                  <i class="fa fa-users fa-lg"></i> Resume
+                  </a>
+                </li>
+
             </ul>
      </div>
 </div>

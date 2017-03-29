@@ -1,3 +1,7 @@
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
 #logo {
 	width: 110px;
 	border-radius: 50%;
@@ -15,3 +19,97 @@
 	width: 35px;
 	margin: 10px 0;
 }
+
+.page-body {
+	margin-left: 300px; /* compensating for the sidebar */
+}
+
+.header {
+    background-color: grey;
+    height: 423px;
+    width: 100%;
+    
+}
+
+/* carousel styles */
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+ #featured-projects {
+ 	width: 90%;
+ 	margin: 0 auto;
+ } 
+
+ .carousel-control.left, .carousel-control.right {
+ 	background-image: none;
+ }  
+
+ .projects-outline {
+    border: 1px solid grey;
+    margin: 80px;
+}
+
+
+.carousel-caption {
+	position: relative;
+    bottom: 20px;
+    color: #000;
+    left: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+    text-shadow: none;
+}
+
+.item img {
+	border: 2px grey solid;
+}
+   
+.section-title {
+	padding: 30px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}   
+.section-title1 {
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.section-title2 {
+font-family: 'Dosis', sans-serif;
+}
+.section-title3 {
+font-family: 'Catamaran', sans-serif;
+}
+.section-title4 {
+font-family: 'Montserrat Alternates', sans-serif;
+}
+.section-title5 {
+font-family: 'Arima Madurai', cursive;
+}
+.section-title6 {
+font-family: 'Chicle', cursive;
+}
+.section-title7 {
+font-family: 'Germania One', cursive;
+}
+
+.nav-side-menu ul .sub-menu li::before, .nav-side-menu li .sub-menu li::before {
+	content: "";
+}
+
+.nav-side-menu ul *:not(collapsed) .arrow::before, .nav-side-menu li *:not(collapsed) .arrow::before {
+	content: "";
+}
+
+
+
+/* Small screen styles */
+@media only screen and (max-width: 780px) {
+   .projects-outline {
+   	border: none;
+   	margin: 0;
+   }
+}
+

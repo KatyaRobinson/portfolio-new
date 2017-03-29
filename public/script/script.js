@@ -9,10 +9,10 @@
 
  function adjustPageWidth(){
   var pageWidth = $(document).width();
-  if(pageWidth < 780){
+  if(pageWidth < 760){
   	$(".page-body").css("margin-left", "0px");
   	console.log(pageWidth);
-  	console.log("margin removed")
+  	console.log("margin removed");
   }
   else {
   	$(".page-body").css("margin-left", "300px");

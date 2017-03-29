@@ -1,5 +1,6 @@
 body {
 	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
 }
 
 #logo {
@@ -25,7 +26,7 @@ body {
 }
 
 .header {
-    background-color: grey;
+    background-color: #666666;
     height: 423px;
     width: 100%;
     
@@ -72,28 +73,8 @@ body {
 .section-title {
 	padding: 30px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 3em;
 }   
-.section-title1 {
-font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-.section-title2 {
-font-family: 'Dosis', sans-serif;
-}
-.section-title3 {
-font-family: 'Catamaran', sans-serif;
-}
-.section-title4 {
-font-family: 'Montserrat Alternates', sans-serif;
-}
-.section-title5 {
-font-family: 'Arima Madurai', cursive;
-}
-.section-title6 {
-font-family: 'Chicle', cursive;
-}
-.section-title7 {
-font-family: 'Germania One', cursive;
-}
 
 .nav-side-menu ul .sub-menu li::before, .nav-side-menu li .sub-menu li::before {
 	content: "";
@@ -104,12 +85,25 @@ font-family: 'Germania One', cursive;
 }
 
 
+/* Home page header styles */
+.side-buttons button {
+	display: block;
+	width: 90%;
+	margin-top: 20px;
+}
+
 
 /* Small screen styles */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1200px) {
    .projects-outline {
    	border: none;
    	margin: 0;
+   }
+   .side-buttons button {
+   	display: inline;
+   	width: 30%;
+   	margin-left: 1%;
+   	margin-top: 32px;
    }
 }
 

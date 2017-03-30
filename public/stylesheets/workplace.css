@@ -2,7 +2,6 @@
   height: 400px;
   width: 100%;
   position: relative;
-  border-bottom: 3px solid #F2F2F2;
   overflow: hidden;
 }
 .computer {
@@ -94,4 +93,18 @@
   border-radius: 50%;
   left: 15px;
   top: 8px;
+}
+
+.table-top {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: white;
+    border-image: none;
+    border-style: none;
+    border-width: medium;
+    height: 5px;
+    margin-top: 1px;
+    width: 90%;
 }

@@ -1,6 +1,7 @@
 
-
+$(document).ready(changeColor('#999999', '#666666'));
  $(document).ready(adjustPageWidth);
+
 
  $(window).resize(adjustPageWidth);
 
@@ -20,3 +21,41 @@
   	console.log("margin added");
   }
  }
+
+
+ function changeColor(darkColor, lightColor){
+  
+  $('.color-dark').each(function(){
+  	$(this).css('transition', '1s');
+  	$(this).css('background-color', darkColor);
+
+  });
+
+    $('.color-light').each(function(){
+    	$(this).css('transition', '1s');
+  	$(this).css('background-color', lightColor);
+  });
+}
+
+
+$("#make-pretty-btn").click(function(){
+  changeColor("black","white");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

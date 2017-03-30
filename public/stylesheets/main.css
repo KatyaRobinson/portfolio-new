@@ -27,7 +27,7 @@ body {
 
 .header {
     background-color: #666666;
-    height: 423px;
+    height: 550px;
     width: 100%;
     
 }
@@ -90,6 +90,33 @@ body {
 	display: block;
 	width: 90%;
 	margin-top: 20px;
+}
+
+/* Make-pretty styles */
+.make-pretty {
+	/*width: 50%;
+	margin: 0 auto;*/
+	text-align: center;
+}
+
+
+.make-pretty li {
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.make-pretty ul {
+	padding: 0;
+}
+
+.make-pretty button {
+    border-radius: 30px;
+    height: 46px;
+    margin-bottom: 9px;
+    width: 75%;
 }
 
 

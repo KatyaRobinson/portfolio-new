@@ -154,6 +154,23 @@ body {
    	background-color: transparent!important;
 	  color: #999999;
    }
+
+   .header {
+    height: 588px;
+   }
+
+   .screen-text {
+    padding: 0 0 0 21px;
+    
+}
+
+}
+
+@media only screen and (max-width: 500px){
+    .screen-text {
+      width: 60%;
+      text-align:center;
+    }
 }
 
 

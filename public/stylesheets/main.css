@@ -116,11 +116,14 @@ body {
     width: 59%;
 }
 
-.make-pretty button {
+#make-pretty-btn {
     border-radius: 30px;
     height: 46px;
     margin-bottom: 9px;
     width: 75%;
+    background-color: #C6392F;
+    color: white;
+    font-weight:bold;
 }
 
 #blue {

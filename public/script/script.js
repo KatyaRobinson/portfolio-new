@@ -2,6 +2,20 @@
 /*$(document).ready(changeColors('#666666', '#999999'));
  $(document).ready(adjustPageWidth);*/
 
+
+function resetColorsToOriginal(){
+   var  darkerColor = "#999999",
+        lighterColor = "#999999",
+        popColor = "#999999",
+        baseeColor = "#666666";
+  changeColors(baseeColor, darkerColor, lighterColor, popColor);
+  $('img').css('filter', 'grayscale(100%)');
+}
+
+
+
+
+
  $(document).ready(function(){
   resetColorsToOriginal();
   adjustPageWidth();
@@ -63,29 +77,48 @@
 
 
 $("#blue").click(function(){
-  setColors('#666666',"#6290C8","#1F487E", "#EDB183");
-   $('img').css('filter', 'grayscale(0%)');
-   $('#logo').css('border-color', '#EDB183');
+    baseeColor = "#666666";
+    darkerColor = "#6290C8";
+    lighterColor = "#1F487E";
+    popColor = "#EDB183";
+    changeColors(baseeColor, darkerColor, lighterColor, popColor);
+    $(this).css('border', '1px solid yellow');
 
 });
 
 $("#green").click(function(){
-  setColors('#666666', "#E9D985", "#749C75", "#D2A1B8");
-   $('img').css('filter', 'grayscale(0%)');
+    baseeColor = "#666666";
+    darkerColor = "#E9D985";
+    lighterColor = "#749C75";
+    popColor = "#D2A1B8";
+    changeColors(baseeColor, darkerColor, lighterColor, popColor);
+    $(this).css('border', '1px solid yellow');
 });
 
 $("#purple").click(function(){
-  setColors('#666666', "#B75D69", "#372549", "#EACDC2");
-   $('img').css('filter', 'grayscale(0%)');
+
+    baseeColor = "#666666";
+    darkerColor = "#B75D69";
+    lighterColor = "#372549";
+    popColor = "#EACDC2";
+    changeColors(baseeColor, darkerColor, lighterColor, popColor);
+    $(this).css('border', '1px solid yellow');
 });
 
 $("#original").click(function(){
   resetColorsToOriginal();
+  $(this).css('border', '1px solid yellow');
 });
 
-function resetColorsToOriginal(){
-  setColors('#666666', '#999999', '#999999', '#666666');
-  $('img').css('filter', 'grayscale(100%)');
+function changeColors(baseColor, darkColor, lightColor, altColor){
+  
+  setColors(baseColor, darkColor, lightColor, altColor);
+  $("#make-pretty-options li").css('border', 'none');
+  $('img').css('filter', 'grayscale(0%)');
+  $('#logo').css('border-color', altColor);
+  $('h1').css('color', darkColor);
+  $('.projects-outline').css('border-color', lightColor);
+  $('.projects-outline').css('border-width', '3px');
 }
 
 

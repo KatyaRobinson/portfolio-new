@@ -51,7 +51,7 @@ body {
  }  
 
  .projects-outline {
-    border: 1px solid grey;
+    border: 1px solid;
     margin: 80px;
 }
 
@@ -110,7 +110,10 @@ body {
 }
 
 .make-pretty ul {
-	padding: 0;
+	  margin-left: 20%;
+    padding: 0;
+    position: absolute;
+    width: 59%;
 }
 
 .make-pretty button {
@@ -130,6 +133,10 @@ body {
 
 #purple {
   background-color: #372549;
+}
+
+#original {
+  background-color: #999999;
 }
 
 

@@ -121,7 +121,6 @@ body {
     height: 46px;
     margin-bottom: 9px;
     width: 75%;
-    background-color: #C6392F;
     color: white;
     font-weight:bold;
 }
@@ -152,6 +151,17 @@ body {
     width: 100%;
     z-index: 999;
 }
+
+.tools > span {
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.container-fluid {
+  padding-bottom: 50px; /* to compensate for the fixed footer*/
+}
+
+
 
 
 /* Small screen styles */

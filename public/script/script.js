@@ -10,6 +10,8 @@ function resetColorsToOriginal(){
         baseeColor = "#666666";
   changeColors(baseeColor, darkerColor, lighterColor, popColor);
   $('img').css('filter', 'grayscale(100%)');
+  $("#make-pretty-btn").css('background-color', '#C6392F');
+  $("#make-pretty-btn").text('Sprinkle some color');
 }
 
 
@@ -113,12 +115,15 @@ $("#original").click(function(){
 function changeColors(baseColor, darkColor, lightColor, altColor){
   
   setColors(baseColor, darkColor, lightColor, altColor);
+  $("#make-pretty-btn").css('background-color', baseColor);
+  $("#make-pretty-btn").text('Hide color options');
   $("#make-pretty-options li").css('border', 'none');
   $('img').css('filter', 'grayscale(0%)');
   $('#logo').css('border-color', altColor);
   $('h1').css('color', darkColor);
   $('.projects-outline').css('border-color', lightColor);
   $('.projects-outline').css('border-width', '3px');
+  $('.glyphicon').css('color', lightColor);
 }
 
 
@@ -139,11 +144,21 @@ $(function(){
 
 function toggleColorOptions(){
 $("#make-pretty-options li").toggle("slow", "swing");
+
 }
 
 toggleColorOptions(); // hide the color options initially
 
-$("#make-pretty-btn").on("click", toggleColorOptions);
+$("#make-pretty-btn").on("click", function(){
+  toggleColorOptions();
+  $(this).toggleClass('clicked');
+  if($(this).hasClass('clicked')){
+    $(this).text('Hide color options');
+  }
+  else {
+    $(this).text('Sprinkle some color');
+  }
+});
 
 
 

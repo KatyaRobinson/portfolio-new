@@ -15,6 +15,11 @@ var express = require("express"),
  	res.render("home");
  });
 
+ app.get("/portfolio", function(req, res){
+ 	res.render("portfolio");
+ });
+
+
  app.get('/cool', function(req, res){
  	res.send(cool());
  });

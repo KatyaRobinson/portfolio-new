@@ -88,6 +88,7 @@ function resetColorsToOriginal(){
   $('img').css('filter', 'grayscale(100%)');
   $("#make-pretty-btn").css('background-color', '#C6392F');
   $("#make-pretty-btn").text('Sprinkle some color');
+  $('.footer').css('background-color', darkerColor);
 }
 
 

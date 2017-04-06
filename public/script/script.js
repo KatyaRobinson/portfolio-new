@@ -35,7 +35,7 @@ setColorPageScheme();
 function setColorPageScheme(){
 
   //get the most recently chosen color scheme from local storage
-  var $chosenColorScheme = localStorage.getItem("chosenColorScheme");
+  var $chosenColorScheme = sessionStorage.getItem("chosenColorScheme");
     switch($chosenColorScheme){
       case "blue": setColorScheme(colors.blue.baseColor, colors.blue.darkColor, colors.blue.lightColor, colors.blue.popColor, "blue");
           break;
@@ -47,7 +47,7 @@ function setColorPageScheme(){
       break;
 
       default:
-      setColorScheme(colors.original,baseColor, colors.original.darkColor, colors.original.lightColor, colors.original.popColor, "original");
+      setColorScheme(colors.original.baseColor, colors.original.darkColor, colors.original.lightColor, colors.original.popColor, "original");
 
     }
 }
@@ -164,16 +164,16 @@ $("#purple").click(function(){
 $("#original").click(function(){
   resetColorsToOriginal();
   $(this).css('border', '1px solid yellow');
-   localStorage.setItem("chosenColorScheme", "original");
-   var $chosenColorScheme = localStorage.getItem("chosenColorScheme");
+   sessionStorage.setItem("chosenColorScheme", "original");
+   var $chosenColorScheme = sessionStorage.getItem("chosenColorScheme");
     console.log($chosenColorScheme);
 });
 
 function setColorScheme(base, dark, light, pop, scheme){
   changeColors(base, dark, light, pop);
     $(this).css('border', '1px solid yellow');
-    localStorage.setItem("chosenColorScheme", scheme);
-    var $chosenColorScheme = localStorage.getItem("chosenColorScheme");
+    sessionStorage.setItem("chosenColorScheme", scheme);
+    var $chosenColorScheme = sessionStorage.getItem("chosenColorScheme");
      console.log($chosenColorScheme);
 }
 

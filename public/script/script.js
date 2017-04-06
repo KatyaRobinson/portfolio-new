@@ -217,6 +217,7 @@ $("#make-pretty-options li").toggle("slow", "swing");
 
 }
 
+$("#make-pretty-btn").text('Sprinkle some color');
 toggleColorOptions(); // hide the color options initially
 
 

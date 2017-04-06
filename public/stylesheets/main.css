@@ -162,7 +162,25 @@ body {
   padding-bottom: 50px; /* to compensate for the fixed footer*/
 }
 
+#project-tabs {
+  margin-top: 25px;
+}
 
+.project-square {
+    width: 95%;
+    background-color: grey;
+    margin: 16px auto;
+}
+
+.project-card {
+  height: 250px;
+  border: 1px solid white;
+
+}
+
+.project-card img {
+  
+}
 
 
 /* Small screen styles */

@@ -150,6 +150,7 @@ body {
     text-align: center;
     width: 100%;
     z-index: 999;
+    background-color: '#999999';
 }
 
 .tools > span {

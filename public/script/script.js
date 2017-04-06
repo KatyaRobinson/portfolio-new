@@ -10,7 +10,7 @@ var colors = {
     popColor: "#D2A1B8"
   },
   blue: {
-     baseColor: "#666666",
+    baseColor: "#666666",
     darkColor: "#6290C8",
     lightColor: "#1F487E",
     popColor: "#EDB183"
@@ -106,24 +106,24 @@ function resetColorsToOriginal(){
  function setColors(baseColor, darkColor, lightColor, altColor){
   
   $('.color-base').each(function(){
-    $(this).css('transition', '1s');
+    $(this).css('transition', '0.5s');
     $(this).css('background-color', baseColor);
 
   });
 
   $('.color-dark').each(function(){
-  	$(this).css('transition', '1s');
+  	$(this).css('transition', '0.5s');
   	$(this).css('background-color', darkColor);
 
   });
 
     $('.color-light').each(function(){
-    	$(this).css('transition', '1s');
+    	$(this).css('transition', '0.5s');
   	$(this).css('background-color', lightColor);
   });
 
     $('.color-alt').each(function(){
-    	$(this).css('transition', '1s');
+    	$(this).css('transition', '0.5s');
   	$(this).css('background-color', altColor);
   });
 
@@ -190,6 +190,7 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $('.projects-outline').css('border-color', lightColor);
   $('.projects-outline').css('border-width', '3px');
   $('.glyphicon').css('color', lightColor);
+  $('.footer').css('background-color', darkColor);
 }
 
 

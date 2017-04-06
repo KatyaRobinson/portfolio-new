@@ -48,7 +48,8 @@ function setColorPageScheme(){
       break;
 
       default:
-      setColorScheme(colors.original.baseColor, colors.original.darkColor, colors.original.lightColor, colors.original.popColor, "original");
+      resetColorsToOriginal();
+      //setColorScheme(colors.original.baseColor, colors.original.darkColor, colors.original.lightColor, colors.original.popColor, "original");
 
     }
 }
@@ -79,7 +80,7 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
 
 
 function resetColorsToOriginal(){
-   var  darkerColor = colors.original.baseColor,
+   var  darkerColor = colors.original.darkColor,
         lighterColor = colors.original.lightColor,
         popColor = colors.original.popColor,
         baseeColor = colors.original.baseColor;
@@ -216,7 +217,7 @@ $("#make-pretty-options li").toggle("slow", "swing");
 }
 
 toggleColorOptions(); // hide the color options initially
-$("#make-pretty-btn").text("Sprinkle some color");
+
 
 $("#make-pretty-btn").on("click", function(){
   toggleColorOptions();

@@ -34,9 +34,17 @@ var colors = {
 setColorPageScheme();
 
 function setColorPageScheme(){
-
+    var $chosenColorScheme = "";
   //get the most recently chosen color scheme from local storage
-  var $chosenColorScheme = localStorage.getItem("chosenColorScheme");
+  if(localStorage.getItem("chosenColorScheme")) {
+    $chosenColorScheme = localStorage.getItem("chosenColorScheme"); 
+    console.log("the chosen scheme is " + $chosenColorScheme);
+    } else {
+       $chosenColorScheme = "original";
+        console.log("the chosen scheme is " + $chosenColorScheme);
+    }
+
+
     switch($chosenColorScheme){
       case "blue": setColorScheme(colors.blue.baseColor, colors.blue.darkColor, colors.blue.lightColor, colors.blue.popColor, "blue");
           break;
@@ -52,6 +60,7 @@ function setColorPageScheme(){
       //setColorScheme(colors.original.baseColor, colors.original.darkColor, colors.original.lightColor, colors.original.popColor, "original");
 
     }
+    console.log("setColorPageScheme called");
 }
 
 function setColorScheme(base, dark, light, pop, scheme){
@@ -60,6 +69,8 @@ function setColorScheme(base, dark, light, pop, scheme){
     localStorage.setItem("chosenColorScheme", scheme);
     var $chosenColorScheme = localStorage.getItem("chosenColorScheme");
      console.log($chosenColorScheme);
+
+     console.log("setColorScheme called");
 }
 
 
@@ -75,7 +86,8 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $('.projects-outline').css('border-color', lightColor);
   $('.projects-outline').css('border-width', '3px');
   $('.glyphicon').css('color', lightColor);
-  $('.footer').css('background-color', darkColor);
+  //$('#footer').css('background-color', darkColor);
+  console.log("changeColors called");
 }
 
 
@@ -88,7 +100,8 @@ function resetColorsToOriginal(){
   $('img').css('filter', 'grayscale(100%)');
   $("#make-pretty-btn").css('background-color', '#C6392F');
   $("#make-pretty-btn").text('Sprinkle some color');
-  $('.footer').css('background-color', darkerColor);
+ //$("#footer").css('background-color', darkerColor);
+ console.log("resetColorsTiOriginal called");
 }
 
 
@@ -98,7 +111,7 @@ function resetColorsToOriginal(){
  $(document).ready(function(){
   //resetColorsToOriginal();
   adjustPageWidth();
-  colorActiveTab(); // TODO
+  
  });
 
 
@@ -121,12 +134,7 @@ function resetColorsToOriginal(){
   }
  }
 
-/*to fix*/
- function colorActiveTab(){
-  $(".active").forEach(function(){
-    $(this).addClass('color-alt');
-  });
- }
+
 
 
  function setColors(baseColor, darkColor, lightColor, altColor){
@@ -203,10 +211,10 @@ $(function(){
     var url = window.location.pathname, 
         urlRegExp = new RegExp(url.replace(/\/$/,'') + "$"); // create regexp to match current url pathname and remove trailing slash if present as it could collide with the link in navigation in case trailing slash wasn't present there
         // now grab every link from the navigation
-        $('.menu-content li a').each(function(){
+        $('.menu-content a').each(function(){
             // and test its normalized href against the url pathname regexp
             if(urlRegExp.test(this.href.replace(/\/$/,''))){
-                $(this).addClass('active');
+                $(this).find("li").addClass('menu-list-active');
             }
         });
 

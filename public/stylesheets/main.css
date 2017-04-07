@@ -141,7 +141,7 @@ body {
   background-color: #999999;
 }
 
-.footer {
+#footer {
     bottom: 0;
     color: white;
     height: 54px;
@@ -150,7 +150,7 @@ body {
     text-align: center;
     width: 100%;
     z-index: 999;
-   background-color: #666666;
+   
 }
 
 .tools > span {
@@ -180,6 +180,19 @@ body {
 
 .project-card img {
   
+}
+
+li.menu-list-active {
+  border-left: 2px solid white;
+}
+
+.menu-list-active a {
+  text-decoration: underline;
+}
+
+.nav-side-menu a{
+  color: white;
+  text-decoration: none;
 }
 
 

@@ -86,7 +86,7 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $('.projects-outline').css('border-color', lightColor);
   $('.projects-outline').css('border-width', '3px');
   $('.glyphicon').css('color', lightColor);
-  //$('#footer').css('background-color', darkColor);
+  $('.tab-title').find('a').css('color', lightColor);
   console.log("changeColors called");
 }
 
@@ -171,6 +171,7 @@ $("#blue").click(function(){
     popColor = colors.blue.popColor;
     scheme = "blue";
      setColorScheme(baseeColor, darkerColor, lighterColor, popColor, scheme);
+     $(this).css('border', '1px solid yellow');
 
 });
 
@@ -182,6 +183,7 @@ $("#green").click(function(){
     popColor = colors.green.popColor;
     scheme = "green";
     setColorScheme(baseeColor, darkerColor, lighterColor, popColor, scheme);
+    $(this).css('border', '1px solid yellow');
 });
 
 $("#purple").click(function(){
@@ -192,7 +194,7 @@ $("#purple").click(function(){
     popColor = colors.purple.popColor;
     scheme = "purple";
     setColorScheme(baseeColor, darkerColor, lighterColor, popColor, scheme);
-    
+    $(this).css('border', '1px solid yellow');
 });
 
 $("#original").click(function(){

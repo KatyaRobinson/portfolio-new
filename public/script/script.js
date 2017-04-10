@@ -87,6 +87,7 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $('.projects-outline').css('border-width', '3px');
   $('.glyphicon').css('color', lightColor);
   $('.tab-title').find('a').css('color', lightColor);
+  $('.about-pic').css('border-color', lightColor);
   console.log("changeColors called");
 }
 
@@ -241,6 +242,7 @@ $("#make-pretty-btn").on("click", function(){
     $(this).text('Sprinkle some color');
   }
 });
+
 
 
 

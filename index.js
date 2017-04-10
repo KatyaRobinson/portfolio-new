@@ -9,12 +9,19 @@ var express = require("express"),
  app.set('port', (process.env.PORT || 5000));
  app.use(express.static(__dirname + "/public"));
 
-app.get("/home", function(req, res){
+
+// Home route
+ app.get("/home", function(req, res){
  	res.render("home");
  });
 
  app.get("/", function(req, res){
  	res.redirect("/home");
+ });
+
+// About me route
+ app.get("/about", function(req, res){
+ 	res.render("about");
  });
 
  

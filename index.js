@@ -5,8 +5,8 @@ var express = require("express"),
     seedDB = require("./seeds");
 
 
-mongoose.connect("mongodb://localhost/portfolio");
-
+//mongoose.connect("mongodb://localhost/portfolio");
+mongoose.connect("mongodb://katya:MyDream1$@ds157740.mlab.com:57740/portfolio-katya");
 
  app.set('views', __dirname + '/views');
  app.set("view engine", "ejs");

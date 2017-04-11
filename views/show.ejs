@@ -1,0 +1,19 @@
+<% include partials/header %>
+
+<div class="container-fluid">
+	<div class="page-body">
+
+<% project.forEach(function(item){ %>
+	<h1><%=project[0].name%></h1>
+
+<img src="<%= project[0].image%>">
+<p><%= project[0].description %></p>
+<% }) %>
+		
+	</div>
+</div>
+
+
+
+
+<% include partials/footer %>

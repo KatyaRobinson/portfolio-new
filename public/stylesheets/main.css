@@ -207,7 +207,7 @@ li.menu-list-active {
     margin: 10px auto 0;
 }
 
-#about-me-text {
+.main-text {
     font-size: 1.7em;
     margin: 27px auto 0;
     width: 60%;
@@ -216,6 +216,32 @@ li.menu-list-active {
 .about-pic {
   border: 5px solid;
 }
+
+
+/* Project page styles*/ 
+
+.header-img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.arrows span {
+  top: 78px;
+  font-size: 3em;
+}
+
+#prev {
+  position: fixed;
+  margin-left: 8%;
+}
+
+#next {
+ 
+  position: fixed;
+  right: 10%;
+}
+
+
 /* testimonial slider styles */
 
 .carousel-indicators .active{ background: #31708f; } 
@@ -230,12 +256,6 @@ li.menu-list-active {
 
 @media screen and (max-width: 768px) 
 { .media-object{ margin-top:0; } }
-
-
-
-
-
-
 
 
 

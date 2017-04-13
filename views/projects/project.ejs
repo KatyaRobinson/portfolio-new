@@ -5,8 +5,9 @@
 
 <div class="container-fluid">
 	<div class="page-body">
-
+	<a id="back-to"> <--- Back to </a>
 	<div class="arrows">
+
 		<span class="glyphicon glyphicon-arrow-left" id="prev"></span>
 		<span class="glyphicon glyphicon-arrow-right" id="next"></span>
 	</div>
@@ -22,15 +23,28 @@
 
 
 <script type="text/javascript">
+
+	var count = 9; //hardcoded number of projects
+
 	var pathname = window.location.pathname; // Returns path only
 	console.log("pathname is " + pathname);
 	pathname = pathname.substring(pathname.indexOf("/") + 1);
 	id = pathname.substring(pathname.indexOf("/") + 1);
-	console.log("id is " + id);
+	setBackButton(id);
+
+	function setBackButton(num){
+		if(num <=3){
+			$("#back-to").text("<--- Back to Home Page");
+			$("#back-to").attr("href", "/");
+		}else if(num >=4 && num <= 9){
+			$("#back-to").text("<--- Back to Portfolio");
+			$("#back-to").attr("href", "/portfolio#css-images");
+		}
+	}
 
 	$("#next").on('click', function(){
 		id = parseInt(id);
-		if(id <3){
+		if(id < count){
 			id = id +1;
 			window.location.replace("/projects/" + id);
 			console.log(id);
@@ -46,7 +60,7 @@
 			window.location.replace("/projects/" + id);
 			console.log(id);
 		}else {
-			window.location.replace("/projects/" + 3);
+			window.location.replace("/projects/" + count);
 		}
 	})
 </script>

@@ -308,6 +308,11 @@ li.menu-list-active {
   }
 }
 
+#back-to {
+  position: fixed;
+  margin-left: 10px;
+}
+
 /* testimonial slider styles */
 
 .carousel-indicators .active{ background: #31708f; } 
@@ -374,6 +379,11 @@ li.menu-list-active {
     #next {
       right: 4%;
     }
+  
+  #back-to {
+    position: relative;
+  }
+
 
 
 }

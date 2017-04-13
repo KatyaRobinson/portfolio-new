@@ -69,6 +69,7 @@ body {
     padding-top: 20px;
     text-align: left;
     text-shadow: none;
+    width: 75%;
 }
 
 .carousel-caption a {
@@ -251,6 +252,37 @@ li.menu-list-active {
   margin: 15%;
 }
 
+.screen-text {
+    width: 55%;
+    margin: 25% auto;
+}
+
+.code {
+  padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+.code:after {
+    content: '|';
+    position: relative;
+    bottom: 2px;
+    right: 11px;
+    animation: blink 1s infinite;
+
+}
+
+@keyframes blink {
+  0%,100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 /* testimonial slider styles */
 
 .carousel-indicators .active{ background: #31708f; } 
@@ -297,8 +329,11 @@ li.menu-list-active {
 
 @media only screen and (max-width: 500px){
     .screen-text {
-      width: 60%;
-      text-align:center;
+    padding-right: 93px;
+    padding-left: 0;
+    font-size: 0.9em;
+    margin: 16% auto;
+    text-align: center;
     }
     .arrows span {
   top: 187px;

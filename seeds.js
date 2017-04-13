@@ -12,7 +12,9 @@ var data = [
 				image: "/images/movement-source.png",
 				shortDescription: "A web application that uses Wikipedia API to search for articles",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Bootstrap, jQuery, PHP, MySQL"
+				tools: "Bootstrap, jQuery, PHP, MySQL",
+				demo: "http://katyagurina.com/movement-source/",
+				code: "https://github.com/KatyaRobinson/movement-source"
 			},
 			{
 				//Wikiepedia Viever
@@ -22,7 +24,9 @@ var data = [
 				image: "/images/wiki-viewer.png",
 				shortDescription: "A web application that uses Wikipedia API to search for articles",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Bootstrap, jQuery, Wikipedia API"
+				tools: "Bootstrap, jQuery, Wikipedia API",
+				demo: "http://codepen.io/katyarobinson/full/qqRoZv/",
+				code: "http://codepen.io/katyarobinson/pen/qqRoZv"
 			},
 			{
 				// Random Quote Generator
@@ -32,7 +36,9 @@ var data = [
 				image: "/images/quotes.png",
 				shortDescription: "A web application that pulls random quote from http://quotesondesign.com API",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Bootstrap, jQuery, QuotesOnDesign API"
+				tools: "Bootstrap, jQuery, QuotesOnDesign API",
+				demo: "http://codepen.io/katyarobinson/full/XKKrmv/",
+				code: "http://codepen.io/katyarobinson/pen/XKKrmv"
 			},
 
 			//pure css images
@@ -45,7 +51,9 @@ var data = [
 				image: "/images/purecss/temp-page.png",
 				shortDescription: "A Pure CSS webpage I've created to show at my personal website URL as I was working on the new version of my portfolio",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Pure CSS"
+				tools: "Pure CSS",
+				demo: "http://codepen.io/katyarobinson/full/QdeLBK/",
+				code: "http://codepen.io/katyarobinson/pen/QdeLBK"
 			},
 
 			{
@@ -56,7 +64,9 @@ var data = [
 				image: "/images/purecss/adopt.png",
 				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Pure CSS"
+				tools: "Pure CSS",
+				demo: "http://codepen.io/katyarobinson/full/rjQEey",
+				code: "http://codepen.io/katyarobinson/pen/rjQEey"
 			},
 
 			{
@@ -68,7 +78,9 @@ var data = [
 				image: "/images/purecss/beaver.png",
 				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Pure CSS"
+				tools: "Pure CSS",
+				demo: "http://codepen.io/katyarobinson/pen/LxrVza",
+				code: "http://codepen.io/katyarobinson/full/LxrVza"
 			},
 
 			{
@@ -79,7 +91,9 @@ var data = [
 				image: "/images/purecss/elephant.png",
 				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Pure CSS"
+				tools: "Pure CSS",
+				demo: "http://codepen.io/katyarobinson/full/XpVORv",
+				code: "http://codepen.io/katyarobinson/pen/XpVORv"
 			},
 
 			{
@@ -90,7 +104,9 @@ var data = [
 				image: "/images/purecss/bear.png",
 				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Pure CSS"
+				tools: "Pure CSS",
+				demo: "http://codepen.io/katyarobinson/full/wgpGNR",
+				code: "http://codepen.io/katyarobinson/pen/wgpGNR"
 			},
 
 			{
@@ -101,7 +117,9 @@ var data = [
 				image: "/images/purecss/clock.png",
 				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
 				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
-				tools: "Pure CSS"
+				tools: "Pure CSS",
+				demo: "http://codepen.io/katyarobinson/pen/mWEPEg",
+				code: "http://codepen.io/katyarobinson/full/mWEPEg"
 			}
 
 			];

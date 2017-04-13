@@ -313,6 +313,12 @@ li.menu-list-active {
   margin-left: 10px;
 }
 
+.code-buttons {
+    margin: 20px auto 0;
+    text-align: center;
+    width: 50%;
+}
+
 /* testimonial slider styles */
 
 .carousel-indicators .active{ background: #31708f; } 

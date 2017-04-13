@@ -83,7 +83,7 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $("#make-pretty-options-sidebar li").css('border', '1px solid white');
   $('img').css('filter', 'grayscale(0%)');
   $('.project-card').css('filter', 'grayscale(0%');
-  $('.project-card').css("border-color", lightColor);
+  $('.project-card').css("border-color", "white");
   $('#logo').css('border-color', altColor);
   $('h1').css('color', darkColor);
   $('.projects-outline').css('border-color', lightColor);
@@ -92,9 +92,12 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $('.tab-title').find('a').css('color', lightColor);
   $('.about-pic').css('border-color', lightColor);
   $(".project-card").hover(function() {
-    $('.project-card').css("border-color", lightColor);
+   
     $(this).css("border-color", darkColor);
 });
+  $(".project-card").mouseleave(function(){
+    $('.project-card').css("border-color", "white");
+  });
   console.log("changeColors called");
 }
 

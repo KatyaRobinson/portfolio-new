@@ -54,7 +54,7 @@ body {
  }  
 
  .projects-outline {
-    border: 1px solid;
+    
     margin: 80px;
     border-radius: 10px;
 }
@@ -177,18 +177,19 @@ body {
 
 .project-square {
     width: 95%;
-    background-color: grey;
+    
     margin: 16px auto;
 }
 
 
 .project-card {
     height: 250px;
-    border: 1px solid white;
+    border: 5px solid;
     background-image: url("/images/placeholder.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
 }
 
 
@@ -272,6 +273,30 @@ li.menu-list-active {
     right: 11px;
     animation: blink 1s infinite;
 
+}
+
+#purecss-1 {
+  background-image:url("/images/purecss/temp-page.png");
+}
+
+#purecss-2 {
+  background-image:url("/images/purecss/adopt.png");
+}
+
+#purecss-3 {
+  background-image:url("/images/purecss/beaver.png");
+}
+
+#purecss-4 {
+  background-image:url("/images/purecss/elephant.png");
+}
+
+#purecss-5 {
+  background-image:url("/images/purecss/bear.png");
+}
+
+#purecss-6 {
+  background-image:url("/images/purecss/clock.png");
 }
 
 @keyframes blink {

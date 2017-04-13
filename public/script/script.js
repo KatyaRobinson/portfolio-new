@@ -82,6 +82,8 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $("#make-pretty-options li").css('border', 'none');
   $("#make-pretty-options-sidebar li").css('border', '1px solid white');
   $('img').css('filter', 'grayscale(0%)');
+  $('.project-card').css('filter', 'grayscale(0%');
+  $('.project-card').css("border-color", lightColor);
   $('#logo').css('border-color', altColor);
   $('h1').css('color', darkColor);
   $('.projects-outline').css('border-color', lightColor);
@@ -89,6 +91,10 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $('.glyphicon').css('color', lightColor);
   $('.tab-title').find('a').css('color', lightColor);
   $('.about-pic').css('border-color', lightColor);
+  $(".project-card").hover(function() {
+    $('.project-card').css("border-color", lightColor);
+    $(this).css("border-color", darkColor);
+});
   console.log("changeColors called");
 }
 
@@ -100,6 +106,7 @@ function resetColorsToOriginal(){
         baseeColor = colors.original.baseColor;
   changeColors(baseeColor, darkerColor, lighterColor, popColor);
   $('img').css('filter', 'grayscale(100%)');
+  $('.project-card').css('filter', 'grayscale(100%');
   $("#make-pretty-btn").css('background-color', '#C6392F');
   $("#make-pretty-btn").text('Sprinkle some color');
  //$("#footer").css('background-color', darkerColor);

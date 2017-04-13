@@ -80,6 +80,7 @@ function changeColors(baseColor, darkColor, lightColor, altColor){
   $("#make-pretty-btn").css('background-color', baseColor);
   $("#make-pretty-btn").text('Hide color options');
   $("#make-pretty-options li").css('border', 'none');
+  $("#make-pretty-options-sidebar li").css('border', '1px solid white');
   $('img').css('filter', 'grayscale(0%)');
   $('#logo').css('border-color', altColor);
   $('h1').css('color', darkColor);
@@ -141,24 +142,24 @@ function resetColorsToOriginal(){
  function setColors(baseColor, darkColor, lightColor, altColor){
   
   $('.color-base').each(function(){
-    $(this).css('transition', '0.5s');
+   // $(this).css('transition', '0.1s');
     $(this).css('background-color', baseColor);
 
   });
 
   $('.color-dark').each(function(){
-  	$(this).css('transition', '0.5s');
+  	//$(this).css('transition', '0.1s');
   	$(this).css('background-color', darkColor);
 
   });
 
     $('.color-light').each(function(){
-    	$(this).css('transition', '0.5s');
+  //  $(this).css('transition', '0.1s');
   	$(this).css('background-color', lightColor);
   });
 
     $('.color-alt').each(function(){
-    	$(this).css('transition', '0.5s');
+   // 	$(this).css('transition', '0.1s');
   	$(this).css('background-color', altColor);
   });
 
@@ -172,7 +173,7 @@ $("#blue").click(function(){
     popColor = colors.blue.popColor;
     scheme = "blue";
      setColorScheme(baseeColor, darkerColor, lighterColor, popColor, scheme);
-     $(this).css('border', '1px solid yellow');
+     $(this).css('border', '2px solid yellow');
 
 });
 
@@ -184,7 +185,7 @@ $("#green").click(function(){
     popColor = colors.green.popColor;
     scheme = "green";
     setColorScheme(baseeColor, darkerColor, lighterColor, popColor, scheme);
-    $(this).css('border', '1px solid yellow');
+    $(this).css('border', '2px solid yellow');
 });
 
 $("#purple").click(function(){
@@ -195,12 +196,12 @@ $("#purple").click(function(){
     popColor = colors.purple.popColor;
     scheme = "purple";
     setColorScheme(baseeColor, darkerColor, lighterColor, popColor, scheme);
-    $(this).css('border', '1px solid yellow');
+    $(this).css('border', '2px solid yellow');
 });
 
 $("#original").click(function(){
   resetColorsToOriginal();
-  $(this).css('border', '1px solid yellow');
+  $(this).css('border', '2px solid yellow');
    localStorage.setItem("chosenColorScheme", "original");
    var $chosenColorScheme = localStorage.getItem("chosenColorScheme");
     console.log($chosenColorScheme);

@@ -10,6 +10,10 @@ body {
   border: 2px solid;
 }
 
+.social-links {
+  padding: 0;
+}
+
 .social-links li {
 	display: inline;
 
@@ -211,13 +215,14 @@ li.menu-list-active {
   font-size: 2em;
 }
 
-#photos img {
+.photos img {
     margin: 10px auto 0;
+    width:500px;
 }
 
 .main-text {
     font-size: 1.7em;
-    margin: 27px auto 0;
+    margin: 27px auto;
     width: 60%;
 }
 
@@ -319,6 +324,40 @@ li.menu-list-active {
     width: 50%;
 }
 
+/* Contact page styles */
+
+
+/*
+h1,h2,h3 {
+  margin:0 0 35px 0;
+  font-family: 'Patua One', cursive;
+  text-transform: uppercase;
+  letter-spacing:1px;
+}
+
+p{
+  margin:0 0 25px;
+  font-size:18px;
+  line-height:1.6em;
+}
+a{
+  color:#26a5d3;
+}
+a:hover,a:focus{
+  text-decoration:none;
+  color:#26a5d3;
+}*/
+
+
+
+textarea.form-control{
+    height:100px;
+}
+
+
+
+
+
 /* testimonial slider styles */
 
 .carousel-indicators .active{ background: #31708f; } 
@@ -375,8 +414,11 @@ li.menu-list-active {
   top: 187px;
   font-size: 2em;
     }
+    .photos img {
+      width: auto;
+    }
     .main-text {
-      width: 72%;
+      width: 90%;
       text-align: justify;
     }
     #prev {
@@ -390,6 +432,12 @@ li.menu-list-active {
     position: relative;
   }
 
+  .envelope {
+    height: 0!important;
+  }
+  #envelope {
+    display: none;
+  }
 
 
 }

@@ -12,8 +12,12 @@
 		<span class="glyphicon glyphicon-arrow-right" id="next"></span>
 	</div>
 		<h1 class="text-center"><%=project.name%></h1>
-
+		
+	
 		<img class="img-responsive header-img" src="<%= project.image%>">
+		
+	
+
 		<div class="code-buttons">
 			<a class="btn btn-default" href="<%=project.demo %>" target="_blank">Demo</a>
 			<a class="btn btn-default" href="<%=project.code %>" target="_blank">Code</a>
@@ -38,7 +42,7 @@
 
 	function setBackButton(num){
 		if(num <=3){
-			$("#back-to").text("<--- Back to Home Page");
+			$("#back-to").text("<--- Back to Featured Projects");
 			$("#back-to").attr("href", "/");
 		}else if(num >=4 && num <= 9){
 			$("#back-to").text("<--- Back to Portfolio");

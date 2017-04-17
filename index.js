@@ -35,11 +35,16 @@ mongoose.connect("mongodb://katya:MyDream1$@ds157740.mlab.com:57740/portfolio-ka
  	res.render("portfolio");
  });
 
+ //Contact route
+ app.get("/contact", function(req, res){
+ 	res.render("contact");
+ });
 
 
-// INDEX show all campgrounds
+
+// INDEX show all projects
 app.get("/projects", function(req, res){
-// Get all campgrounds from DB
+// Get all projects from DB
 Project.find({}, function(err, allprojects){
 	if(err){
 		console.log(err);
@@ -51,7 +56,7 @@ Project.find({}, function(err, allprojects){
 
  //SHOW route
 app.get("/projects/:id", function(req, res){
-	// find campground with provided id
+	// find project with provided id
 	Project.findOne({id: req.params.id}, function(err, foundProject){
 		if(err){
 			console.log(err);

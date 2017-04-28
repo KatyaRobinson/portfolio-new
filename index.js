@@ -26,10 +26,23 @@ mongoose.connect("mongodb://katya:MyDream1$@ds157740.mlab.com:57740/portfolio-ka
  	res.redirect("/home");
  });
 
-// About me route
+// About me route - My Story
  app.get("/about", function(req, res){
  	res.render("about");
  });
+
+// About Me - Hobbies Route
+
+app.get("/hobbies", function(req, res){
+	res.render("hobbies");
+});
+
+// About Me - Coding Challenges Route
+
+app.get("/coding-challenges", function(req, res){
+	res.render("coding-challenges");
+});
+
 
 // Portfolio route
  app.get("/portfolio", function(req, res){

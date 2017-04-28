@@ -357,6 +357,9 @@ textarea.form-control{
     height:100px;
 }
 
+.caption {
+  text-align: center;
+}
 
 
 
@@ -373,14 +376,14 @@ textarea.form-control{
 .carousel-control.left, .carousel-control.right { background-image: none; } 
 .media-object{ margin:auto; margin-top:15%; } 
 
-.sub-menu {
+/*.sub-menu {
   display: none;
 }
 
 .collapsed:hover > ul {
   display: block;
 }
-
+*/
 
 
 /* MEDIA QUERIES START */

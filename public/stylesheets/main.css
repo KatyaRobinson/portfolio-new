@@ -255,8 +255,11 @@ li.menu-list-active {
 }
 
 #make-pretty-options-sidebar {
-  margin: 15%;
+  margin: 32px 21% 0;
+  position: relative;
 }
+
+
 
 .screen-text {
     width: 55%;
@@ -370,6 +373,17 @@ textarea.form-control{
 .carousel-control.left, .carousel-control.right { background-image: none; } 
 .media-object{ margin:auto; margin-top:15%; } 
 
+.sub-menu {
+  display: none;
+}
+
+.collapsed:hover > ul {
+  display: block;
+}
+
+
+
+/* MEDIA QUERIES START */
 @media screen and (max-width: 768px) 
 { .media-object{ margin-top:0; } }
 

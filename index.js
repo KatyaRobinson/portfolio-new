@@ -3,6 +3,7 @@ var express = require("express"),
     mongoose = require("mongoose"),
     Project = require("./models/project"),
     seedDB = require("./seeds");
+   // nodemailer = require("nodemailer");
 
 
 //mongoose.connect("mongodb://localhost/portfolio");

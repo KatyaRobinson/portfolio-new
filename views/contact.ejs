@@ -1,7 +1,10 @@
 <% include partials/header %>
-<% include partials/sidebar-1 %>
+<% include partials/sidebar %>
+<script type="text/javascript" src="/script/mail.js"></script>
+
 
 <script type="text/javascript">
+// function dublicates message text as it's being typed in
 	function getVal() {
     var x = document.getElementById("message");
     document.getElementById("letter").innerHTML = x.value;

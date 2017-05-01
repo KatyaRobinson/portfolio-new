@@ -387,8 +387,17 @@ textarea.form-control{
 
 
 /* MEDIA QUERIES START */
-@media screen and (max-width: 768px) 
-{ .media-object{ margin-top:0; } }
+@media screen and (max-width: 768px) {
+  .page-body {
+     margin-top: -11px;
+  }
+  
+  .media-object { 
+    margin-top:0; 
+  }
+
+}
+
 
 
 
@@ -421,18 +430,18 @@ textarea.form-control{
 
 @media only screen and (max-width: 500px){
     .screen-text {
-    padding-right: 93px;
-    padding-left: 0;
-    font-size: 0.9em;
-    margin: 16% auto;
-    text-align: center;
+      padding-right: 93px;
+      padding-left: 0;
+      font-size: 0.9em;
+      margin: 16% auto;
+      text-align: center;
     }
     .arrows span {
-  top: 187px;
-  font-size: 2em;
+      top: 187px;
+      font-size: 2em;
     }
     .photos img {
-      width: auto;
+        width: auto;
     }
     .main-text {
       width: 90%;
@@ -445,15 +454,20 @@ textarea.form-control{
       right: 4%;
     }
   
-  #back-to {
-    position: relative;
-  }
+    #back-to {
+      position: relative;
+    }
 
   .envelope {
-    height: 0!important;
+     height: 0!important;
   }
+
   #envelope {
-    display: none;
+     display: none;
+  }
+
+  .page-body {
+    margin-top: -11px;
   }
 
 

@@ -56,6 +56,10 @@
   border-left: 3px solid #f2f2f2;
   background-color: #999999;
 }
+.nav-side-menu ul .sub-menu li {
+  font-size: 18px;
+}
+
 .nav-side-menu ul .sub-menu li.active,
 .nav-side-menu li .sub-menu li.active {
   color: #d19b3d;
@@ -100,13 +104,15 @@
   padding-right: 20px;
 }
 .nav-side-menu li:hover {
-  border-left: 3px solid #f2f2f2;
+  /*border-left: 3px solid #f2f2f2;
   background-color: #999999;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  transition: all 1s ease;*/
+  text-decoration: underline;
+
 }
 
 .social-links a img {

@@ -10,8 +10,8 @@ var data = [
 				featured: true,
 				name: "Movement Source",
 				image: "/images/movement-source.png",
-				shortDescription: "A web application that uses Wikipedia API to search for articles",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				shortDescription: "Website for a pilates studio",
+				description: "A Bootstrap-powered website with PHP on backend. The objective for this project was creating a light-weight website with a simple and clean inteface that is easy to use and navigate. Users come to the website to learn about upcoming events, class schedules and to submit an appointment request.",
 				tools: "Bootstrap, jQuery, PHP, MySQL",
 				demo: "http://katyagurina.com/movement-source/",
 				code: "https://github.com/KatyaRobinson/movement-source"
@@ -23,7 +23,7 @@ var data = [
 				name: "Wikipedia Viewer",
 				image: "/images/wiki-viewer.png",
 				shortDescription: "A web application that uses Wikipedia API to search for articles",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				description: "I completed this project as a part of the FreeCodeCamp front end developer curriculum. When I first approached this challenge I knew nothing about APIs and how to make them work in web applications. To complete the user stories I had to research about APIs and do a few tutorials. After a while the concept clicked in my brain and I leaned to love APIs! Another big concept that I've learned about while working in this project is AJAX request. Every time user enteres a search query, an AJAX request is sent over to the API and response is returned back and displayed on the page without the page itself having to reload.",
 				tools: "Bootstrap, jQuery, Wikipedia API",
 				demo: "http://codepen.io/katyarobinson/full/qqRoZv/",
 				code: "http://codepen.io/katyarobinson/pen/qqRoZv"
@@ -35,7 +35,7 @@ var data = [
 				name: "Random Quote Generator",
 				image: "/images/quotes.png",
 				shortDescription: "A web application that pulls random quote from http://quotesondesign.com API",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				description: "This web app was a mandatory project to be completed to obtain a Front End Developer centification from FreeCodeCamp. I spent hours and hours trying to make sense of JSON objects and different random quote APIs documentation I've found on the internet. Working on this project made me a lot more comfortable reading API documentation and manipulating JSON data",
 				tools: "Bootstrap, jQuery, QuotesOnDesign API",
 				demo: "http://codepen.io/katyarobinson/full/XKKrmv/",
 				code: "http://codepen.io/katyarobinson/pen/XKKrmv"
@@ -50,7 +50,7 @@ var data = [
 				name: "Temporary Page",
 				image: "/images/purecss/temp-page.png",
 				shortDescription: "A Pure CSS webpage I've created to show at my personal website URL as I was working on the new version of my portfolio",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				description: "At some point I got so embarassed of the previous version of my personal website that I decided to go ahead and create some kind of placeholder to show the visitors instead, while I was working on the new and improved website",
 				tools: "Pure CSS",
 				demo: "http://codepen.io/katyarobinson/full/QdeLBK/",
 				code: "http://codepen.io/katyarobinson/pen/QdeLBK"
@@ -62,8 +62,8 @@ var data = [
 				featured: false,
 				name: "Adopt, Don't Shop",
 				image: "/images/purecss/adopt.png",
-				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				shortDescription: "A Pure CSS page I've created for the #DailyCSS challenge",
+				description: "The prompt for that day of the challenge was 'Favorite animal'. I couldn't choose between cats and dogs and went with both",
 				tools: "Pure CSS",
 				demo: "http://codepen.io/katyarobinson/full/rjQEey",
 				code: "http://codepen.io/katyarobinson/pen/rjQEey"
@@ -76,8 +76,8 @@ var data = [
 				featured: false,
 				name: "Beaver",
 				image: "/images/purecss/beaver.png",
-				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				shortDescription: "A Pure CSS page I created for the #DailyCSS challenge",
+				description: "Cute little CSS beaver",
 				tools: "Pure CSS",
 				demo: "http://codepen.io/katyarobinson/pen/LxrVza",
 				code: "http://codepen.io/katyarobinson/full/LxrVza"
@@ -89,8 +89,8 @@ var data = [
 				featured: false,
 				name: "Elephant",
 				image: "/images/purecss/elephant.png",
-				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				shortDescription: "A Pure CSS page I created for the #DailyCSS challenge",
+				description: "",
 				tools: "Pure CSS",
 				demo: "http://codepen.io/katyarobinson/full/XpVORv",
 				code: "http://codepen.io/katyarobinson/pen/XpVORv"
@@ -102,8 +102,8 @@ var data = [
 				featured: false,
 				name: "Bear",
 				image: "/images/purecss/bear.png",
-				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				shortDescription: "A Pure CSS page I created for the #DailyCSS challenge",
+				description: "",
 				tools: "Pure CSS",
 				demo: "http://codepen.io/katyarobinson/full/wgpGNR",
 				code: "http://codepen.io/katyarobinson/pen/wgpGNR"
@@ -115,8 +115,8 @@ var data = [
 				featured: false,
 				name: "Clock",
 				image: "/images/purecss/clock.png",
-				shortDescription: "A Pure CSS page I created for the #DaylyCSS challenge",
-				description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+				shortDescription: "A Pure CSS page I created for the #DailyCSS challenge",
+				description: "The prompt was 'Animated object' ",
 				tools: "Pure CSS",
 				demo: "http://codepen.io/katyarobinson/pen/mWEPEg",
 				code: "http://codepen.io/katyarobinson/full/mWEPEg"

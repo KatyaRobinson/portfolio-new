@@ -5,24 +5,29 @@
 
 <div class="container-fluid">
 	<div class="page-body">
-	<a id="back-to"> <--- Back to </a>
-	<div class="arrows">
+		<a id="back-to"> <--- Back to </a>
 
-		<span class="glyphicon glyphicon-arrow-left" id="prev"></span>
-		<span class="glyphicon glyphicon-arrow-right" id="next"></span>
-	</div>
-		<h1 class="text-center"><%=project.name%></h1>
-		
-	
-		<img class="img-responsive header-img" src="<%= project.image%>">
-		
-	
+		<div class="project-container">
+			
+			<div class="arrows">
 
-		<div class="code-buttons">
-			<a class="btn btn-default" href="<%=project.demo %>" target="_blank">Demo</a>
-			<a class="btn btn-default" href="<%=project.code %>" target="_blank">Code</a>
+				<span class="glyphicon glyphicon-arrow-left" id="prev"></span>
+				<span class="glyphicon glyphicon-arrow-right" id="next"></span>
+			</div>
+				<a href="<%=project.demo %>" target="_blank"><h1 class="text-center"><%=project.name%></h1></a>
+				
+			
+				<img class="img-responsive header-img" src="<%= project.image%>">
+				
+			
+
+				<div class="code-buttons">
+					<a class="btn btn-default" href="<%=project.demo %>" target="_blank">Demo</a>
+					<a class="btn btn-default" href="<%=project.code %>" target="_blank">Code</a>
+				</div>
+				<p class="text-center"><%= project.shortDescription %><p>
+				<p class="main-text"><%= project.description %></p>
 		</div>
-		<p class="main-text"><%= project.description %></p>
 	</div>
 </div>
 

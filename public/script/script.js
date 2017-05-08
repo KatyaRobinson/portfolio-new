@@ -259,38 +259,6 @@ $("#make-pretty-btn").on("click", function(){
 
 
 
-/* The blue scheme
-Dark #1D3461
-Medium #1F487E
-Light 6290C8
-Alt #EDB183
-*/
-
-/*
-The green scheme
-Dark 749C75
-Light E9D985
-Alt D2A1B8
-*/
-
-/*
-Purple scheme
-Dark 372549
-Light B75D69
-Alt EACDC2
-*/
-
-/*
-Pop colors
-EE6352
-EB5E55
-*/
-
-
-
-
-
-
 
 
 

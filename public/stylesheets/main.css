@@ -224,6 +224,7 @@ li.menu-list-active {
     font-size: 1.7em;
     margin: 27px auto;
     width: 60%;
+    text-align: justify;
 }
 
 .about-pic {
@@ -246,12 +247,18 @@ li.menu-list-active {
 #prev {
   position: fixed;
   margin-left: 8%;
+  margin-top: 10%;
 }
 
 #next {
  
   position: fixed;
   right: 10%;
+  margin-top: 10%;
+}
+
+#next:hover, #prev:hover {
+  opacity: 0.5;
 }
 
 #make-pretty-options-sidebar {
@@ -319,12 +326,17 @@ li.menu-list-active {
 #back-to {
   position: fixed;
   margin-left: 10px;
+  top: 25px;
 }
 
 .code-buttons {
     margin: 20px auto 0;
     text-align: center;
     width: 50%;
+}
+
+.project-container {
+  margin-top: 70px;
 }
 
 /* Contact page styles */
@@ -358,7 +370,9 @@ textarea.form-control{
 }
 
 .caption {
-  text-align: center;
+    margin: 10px auto;
+    text-align: center;
+    width: 55%;
 }
 
 
